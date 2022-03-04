@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tira{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(21, 77, 29, 0.712);
+}
+
+.img-pastel{
+    width: auto;
+    height: 50px;
+    padding: 5px 25px;
+}
+
+.menu{
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-objeto{
+    padding: 0 15px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(5, 68, 119);
+    height: 30px;
+    width: auto;
+    background-color: rgb(246, 249, 250);
+    border-radius: 30px;
+    border: 1px solid rgb(5, 68, 119);
+}
+
+.img-fondo{
+    width: auto;
+    height: 555px;
+    background-image: url("../img/pastelfondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-fondo a{
+    width: auto;
+    height: 50px;
+    text-decoration: none;
+    color: rgb(214, 64, 18);
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.img-fondo a:hover{
+    background-color: pink;
+    color: black;
+    box-shadow: 5px 5px #888888;
+    transition: all ease-in-out 500ms;
+}
+
+.img-colores{
+    width: 100%;
+    height: 555px;
+    background-image: url("../img/colores.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS de Acerca de */
+
+.primer-parrafo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.primer-parrafo p{
+    width: 500px;
+    height: auto;
+    color: rgb(65, 37, 21);
+    font-size: medium;
+    background-color: rgb(145, 198, 207);
+    border-radius: 30px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+}
+
+.primer-parrafo img{
+    width: auto;
+    height: 260px;
+}
+
+.segundo-parrafo{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.segundo-parrafo p{
+    width: 300px;
+    height: 180px;
+    color: black;
+    font-size: medium;
+    background-color: rgb(192, 156, 113);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    padding: 5px 15px;
+    margin-top: 30px;
+}
+
+.segundo-parrafo img{
+    width: auto;
+    height: 200px;
+    border-radius: 50px;
+    border: 2px solid brown;
+    margin-top: 30px;
+}
+
+/* CSS de Contacto */
+
+.img-contacto{
+    width: 100%;
+    height: 555px;
+    background-image: url("../img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-contacto img{
+    width: 300px;
+    height: auto;
+}
+
+.contacto{
+    background-color: rgba(214, 170, 243, 0.8);
+    color: black;
+    border-radius: 30px;
+    border: 2px solid purple;
+    padding: 20px;
+    margin: 50px;
+}
+.contacto h1, p{
+    padding: 10px;
+}
+
+.sugerencias{
+    background-color: rgba(241, 208, 158, 0.8);
+    color: black;
+    border-radius: 25px;
+    border: 1px solid rgb(255, 238, 0);
+    padding: 15px;
+}
+
+
+
+/* CSS de Catalogo */
+
+.img-catalogo{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/catalogo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primera-fila{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pastel{
+    width: 250px;
+    height: 30%;
+    background-color: rgba(142, 142, 221, 0.8);
+    border: 2px solid rgb(245, 160, 134);
+}
+
+.pastel img{
+    width: 100%;
+    height: auto;
+}
+
+.pasteles{
+    width: 250px;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 35px 0;
+}
+
+.pasteles a{
+    width: 30%;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgb(187, 70, 128);
+    color: rgb(250, 248, 248);
+    border-radius: 25px;
+    border: 1px solid #fff;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .continuar a{
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    background-color: rgb(138, 57, 32);
+    color: rgb(248, 242, 242);
+    border-radius: 35px;
+    border: 2px solid rgb(247, 243, 243);
+    padding: 15px;
+} */
+
+.continuar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nombre-pastel{
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+}
+
+.precio{
+    width: 50px;
+    height: auto;
+    background-color: rgba(238, 194, 214, 0.699);
+    border-radius: 100px;
+    border: 1px solid rgb(209, 117, 194);
+    display: flex;
+    justify-content: center;
+    margin: 5px 80px;
+}
+
+/* CSS de Formulario */
+
+.img-formulario{
+    width: 100%;
+    height: 555px;
+    background-image: url("../img/formulario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-formulario form label{
+    display: block;
+    padding: 10px;
+    margin: 0 25px;
+}
+
+.img-formulario form input, textarea{
+    width: 80%;
+    padding: 5px;
+    margin: 0 25px;
+    border-radius: 15px;
+    border: none;
+    caret-color: rgb(207, 100, 207);
+}
+
+.img-formulario form{
+    width: 25%;
+    height: auto;
+    background-color: rgba(245, 245, 220, 0.8);
+    border-radius: 20px;
+    border: 2px solid yellowgreen;
+}
+
+.img-formulario a{
+    width: 40%;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(87, 11, 185);
+    background-color: rgba(118, 226, 194, 0.678);
+    border-radius: 20px;
+    padding: 3px 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(87, 11, 185);
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.crear-pedido{
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS de Pedido */ 
+
+.img-pedido{
+    width: auto;
+    height: 555px;
+    background-image: url("../img/pastel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.img-pedido h2{
+    background-color: rgb(179, 79, 125);
+    color: rgb(184, 245, 214);
+    border-radius: 25px;
+    border: 2px solid rgb(184, 245, 214);
+    padding: 5px 15px;
+    margin: 25px;
+}
+
+.img-pedido p{
+    background-color: rgb(141, 212, 168);
+    color: rgb(6, 59, 138);
+    border-radius: 15px;
+    border: 1px solid rgb(6, 59, 138);
+    padding: 5px 15px;
+}
